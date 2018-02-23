@@ -15,4 +15,4 @@ ADD https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-a
 RUN chmod +x /usr/local/bin/cc-test-reporter
 
 ADD https://raw.githubusercontent.com/cibuilds/chrome-extension/491cdfa8f4011e975178f2129672838423ff4de1/scripts/publish.sh /usr/local/bin/publish
-RUN chmod +X /usr/local/bin/publish
+RUN chmod +x /usr/local/bin/publish
