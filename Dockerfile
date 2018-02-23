@@ -3,6 +3,7 @@ FROM node:carbon-alpine
 LABEL maintainer="Warren Seymour <warren@fountainhead.tech>"
 
 RUN apk add --no-cache \
+  git \
   curl \
   jq
 
