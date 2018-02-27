@@ -6,6 +6,7 @@ RUN apk add --no-cache \
   git \
   zip \
   curl \
+  openssl \
   jq
 
 RUN apk add --no-cache --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ \
